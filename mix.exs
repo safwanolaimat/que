@@ -37,7 +37,7 @@ defmodule Que.Mixfile do
 
   defp deps do
     [
-      {:amnesia, github: "git://github.com/safwanolaimat/amnesia.git"},
+      {:amnesia, git: "git://github.com/safwanolaimat/amnesia.git"},
       {:memento, "~> 0.0.1"},
       {:ex_utils, "~> 0.1.6"},
       {:ex_doc, ">= 0.0.0", only: :dev},
